@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="mx.bnext.evergagetest">
+    package="mx.heineken.glup">
 
     <application
         android:allowBackup="true"
@@ -13,12 +13,12 @@
         android:theme="@style/Theme.EvergageTest"
         tools:targetApi="31">
         <activity
-            android:name=".CategoriesActivity"
+            android:name=".Activities.CategoriesActivity"
             android:exported="false"
             android:label="@string/title_activity_categories"
             android:theme="@style/Theme.EvergageTest.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.EvergageTest.NoActionBar">
             <intent-filter>
